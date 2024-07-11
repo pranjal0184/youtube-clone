@@ -1,0 +1,23 @@
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+/*comments*/
+  body{
+    margin:0;
+    margin-bottom: 1000px;
+    padding-top:80px;
+    padding-left: 96px;
+    padding-right: 24px;
+    font-family: Roboto,Arial;
+    background-image: linear-gradient(to bottom, rgb(255, 213, 219), rgb(255, 158, 172),rgb(255, 119, 139));
+  }
+
+  ::-webkit-scrollbar{
+    background-image: linear-gradient(to bottom, rgb(255, 213, 219), rgb(255, 158, 172),rgb(255, 119, 139));
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color:rgb(255, 119, 139) ;
+    border-radius: 8px;
+    
+  }

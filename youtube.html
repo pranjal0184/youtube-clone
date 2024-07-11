@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YouTube clone </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+        <link rel="icon" href="youtube-logo-new.png" type="image/icon type">
+       </head>
+    <body>
+      <header class="header">
+        <div class="left-section">
+          <img class="hamburger-menu" src="header-pictures/hamburger-menu.svg">
+
+          <a href="https://www.youtube.com/" >
+          <img class="youtube-logo" src="header-pictures/youtube-logo.svg">
+          </a>
+
+        </div>
+        <div class="middle-section">
+          <input class="searchbox" type="text" placeholder="Search">
+            <button class="search-button">
+            <img class="search-style" src="header-pictures/search.svg">
+            <div class="tooltip">Search</div>
+          </button>
+          <button class="voice-button">
+            <img class="voice-style" src="header-pictures/voice-search-icon.svg">
+            <div class="tooltip">Search with your voice</div>
+          </button>
+        </div>
+        <div class="right-section">
+          <div class="upload-icon-container">
+            <img class="upload-icon" src="header-pictures/upload.svg">
+          <div class="tooltip">Create</div>
+          </div>
+          <div class="youtube-apps-icon-container">
+            <img class="youtube-apps-icon" src="header-pictures/youtube-apps.svg">
+            <div class="tooltip">YouTube Apps</div>
+          </div>
+
+          <div class="notifications-count-container">
+            <div class="notifs-container">
+              <img class="notifs-icon" src="header-pictures/notifications.svg">
+              <div class="notifications-count">6</div>
+            </div>
+              <div class="tooltip">Notifications</div>
+          </div>
+          <img class="pfp-icon" src="channel-picture/profile-pic.jpeg">
+        </div>
+      </header>
+
+
+      <!--put position absolute inside position relative-->
+      <nav class="sidebar"> 
+        <div class="sidebar-link">
+          <a href="https://www.youtube.com/">
+          <img src="sidebar-pictures/home.svg">
+          </a>
+          <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+          <a href="https://www.youtube.com/feed/trending?bp=6gQJRkVleHBsb3Jl">
+          <img src="sidebar-pictures/explore.svg">
+          </a>
+          <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+          <a href="https://www.youtube.com/feed/subscriptions">
+          <img src="sidebar-pictures/subscriptions.svg">
+          </a>
+          <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+          <a href="https://www.youtube.com/originals">
+          <img src="sidebar-pictures/originals.svg">
+          </a>
+          <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+          <a href="https://music.youtube.com/">
+          <img src="sidebar-pictures/youtube-music.svg">
+          </a>
+          <div>YouTube Music</div>
+        </div>
+        <div class="sidebar-link">
+          <a href="https://www.youtube.com/feed/you">
+        <img src="sidebar-pictures/library.svg">
+        </a>
+        <div>You</div>
+        </div>
+
+      </nav>
+<main>
+  <section class="video-grid">
+    <div class="video-preview"> 
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+        </a>
+         <div class="video-time">14:20</div> 
+        </div>
+      <div> 
+        <div class="video-info-grid">
+          <div class="channel-picture"> 
+            <a href="https://www.youtube.com/@mkbhd">
+           <img class="profile-picture" src="channel-picture/channel-1.jpeg">
+          </a>
+          </div>
+          <div class="video-info"> <p class="video-title"> 
+          Talking Tech and AI with Google CEO Sundar Pichai!
+           </p>
+           <p class="video-author">
+               Marques Brownlee
+           </p>
+           <p class="video-stats">
+               4.2M views &#183; 6 months ago
+           </p>
+          </div>
+      </div>
+    </div> 
+  </div>
+  
+  <div class="video-preview"> 
+    <div class="thumbnail-row">
+      <a href="https://www.youtube.com/watch?v=SWLLJHMzyA4" >
+    <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+  </a>
+     <div class="video-time">3:00</div> 
+    </div>
+  <div> 
+    <div class="video-info-grid">
+      <div class="channel-picture"> 
+        <a href="https://www.youtube.com/@Azoozkie" >
+       <img class="profile-picture" src="channel-picture/channel-3.jpg">
+       </a>
+      </div>
+      <div class="video-info"> <p class="video-title"> 
+      Lavender - Azooz x ‪@SangeetKir‬ x ‪@pinnociomusic‬
+       </p>
+       <p class="video-author">
+           Azooz
+       </p>
+       <p class="video-stats">
+           1.1M views &#183; 2 years ago
+       </p>
+        </div>
+      </div>
+    </div> 
+  </div>
+  
+  <div class="video-preview"> 
+    <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=pRJ-Dai3oB0">
+      <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+    </a>
+     <div class="video-time">3:43</div> 
+    </div>
+  <div> 
+    <div class="video-info-grid">
+      <div class="channel-picture"> 
+        <a href="https://www.youtube.com/@HelloKittyandFriends">
+       <img class="profile-picture" src="channel-picture/channel-4.jpg">
+        </a>
+      </div>
+      <div class="video-info"> <p class="video-title"> 
+        Hello Kitty and Friends Supercute Adventures | The Perfect Gift (NEW ANIMATION) S1 EP 1
+       </p>
+       <p class="video-author">
+        Hello Kitty and Friends
+       </p>
+       <p class="video-stats">
+           7.6M views &#183; 3 years ago
+       </p>
+      </div>
+  </div>
+</div> 
+</div>
+
+<div class="video-preview"> 
+        <div class="thumbnail-row">
+      <a href="https://www.youtube.com/watch?v=yzTuBuRdAyA">
+        <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+      </a>
+         <div class="video-time">14:20</div> 
+        </div>
+      <div> 
+        <div class="video-info-grid">
+          <div class="channel-picture"> 
+            <a href="https://www.youtube.com/@TheWeeknd" >
+           <img class="profile-picture" src="channel-picture/channel-5.jpeg">
+            </a>
+          </div>
+          <div class="video-info"> <p class="video-title"> 
+            The Weeknd - The Hills
+           </p>
+           <p class="video-author">
+               The Weeknd
+           </p>
+           <p class="video-stats">
+               2.1B views &#183; 9 years ago
+           </p>
+          </div>
+      </div>
+    </div> 
+  </div>
+
+  <div class="video-preview"> 
+    <div class="thumbnail-row">
+      <a href="https://www.youtube.com/watch?v=t24x6p8uqto" >
+    <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+    </a>
+     <div class="video-time">20:53</div> 
+    </div>
+  <div> 
+    <div class="video-info-grid">
+      <div class="channel-picture"> 
+        <a href="https://www.youtube.com/@tina_yong">
+       <img class="profile-picture" src="channel-picture/channel-6.jpeg">
+        </a>
+      </div>
+      <div class="video-info"> <p class="video-title"> 
+        Testing Viral Korean TikTok Recipes | Part 6
+       </p>
+       <p class="video-author">
+           Tina Yong
+       </p>
+       <p class="video-stats">
+           1.3M views &#183; 2 years ago
+       </p>
+      </div>
+  </div>
+</div> 
+</div>
+
+
+  <div class="video-preview"> 
+    <div class="thumbnail-row">
+      <a href="https://www.youtube.com/watch?v=24u3NoPvgMw" >
+    <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+      </a>
+     <div class="video-time">3:26</div> 
+    </div>
+  <div> 
+    <div class="video-info-grid">
+      <div class="channel-picture"> 
+        <a href="https://www.youtube.com/@ConanGray" >
+       <img class="profile-picture" src="channel-picture/channel-7.jpeg">
+        </a>
+      </div>
+      <div class="video-info"> <p class="video-title"> 
+        Conan Gray - Heather
+       </p>
+       <p class="video-author">
+        Conan Gray
+       </p>
+       <p class="video-stats">
+           169M views &#183; 3 years ago
+       </p>
+      </div>
+  </div>
+</div> 
+</div>
+
+<div class="video-preview"> 
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=ziF7W567zGg">
+  <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+  </a>
+   <div class="video-time">2:22</div> 
+  </div>
+<div> 
+  <div class="video-info-grid">
+    <div class="channel-picture"> 
+      <a href="https://www.youtube.com/@abeysagar">
+     <img class="profile-picture" src="channel-picture/channel-8.jpeg">
+      </a>
+    </div>
+    <div class="video-info"> <p class="video-title"> 
+      MILNE AA KABHI | SAGAR | Prod. by 4lexf
+     </p>
+     <p class="video-author">
+         abeysagar
+     </p>
+     <p class="video-stats">
+         174 views &#183; 10 months ago
+     </p>
+    </div>
+</div>
+</div> 
+</div>
+
+<div class="video-preview"> 
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=wyiZWYMilgk">
+  <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
+    </a>
+   <div class="video-time">2:28</div> 
+  </div>
+<div> 
+  <div class="video-info-grid">
+    <div class="channel-picture"> 
+      <a href="https://www.youtube.com/@crunchyroll" >
+     <img class="profile-picture" src="channel-picture/channel-9.jpeg">
+      </a>
+    </div>
+    <div class="video-info"> <p class="video-title"> 
+      Demon Slayer: Kimetsu no Yaiba Infinity Castle | OFFICIAL TRAILER
+     </p>
+     <p class="video-author">
+         Crunchyroll
+     </p>
+     <p class="video-stats">
+         8.9M views &#183; 11 days ago
+     </p>
+    </div>
+</div>
+</div> 
+</div>
+
+<div class="video-preview"> 
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=TdrL3QxjyVw" target="_blank">
+  <img class="thumbnail" src="thumbnails/thumbnail-10.webp">
+    </a>
+   <div class="video-time">4:26</div> 
+  </div>
+<div> 
+  <div class="video-info-grid">
+    <div class="channel-picture"> 
+      <a href="https://www.youtube.com/@LanaDelRey" target="_blank">
+     <img class="profile-picture" src="channel-picture/channel-10.jpeg">
+      </a>
+    </div>
+    <div class="video-info"> <p class="video-title"> 
+      Lana Del Rey - Summertime Sadness (Official Music Video)
+     </p>
+     <p class="video-author">
+      Lana Del Rey
+     </p>
+     <p class="video-stats">
+         573M views &#183; 10 years ago
+     </p>
+    </div>
+</div>
+</div> 
+</div>
+
+<div class="video-preview"> 
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=b9EkMc79ZSU" target="_blank">
+  <img class="thumbnail" src="thumbnails/thumbnail-11.webp">
+    </a>
+   <div class="video-time">2:11</div> 
+  </div>
+<div> 
+  <div class="video-info-grid">
+    <div class="channel-picture"> 
+      <a href="https://www.youtube.com/@Netflix" target="_blank">
+     <img class="profile-picture" src="channel-picture/channel-11.jpeg">
+      </a>
+    </div>
+    <div class="video-info"> <p class="video-title"> 
+      Stranger Things | Official Final Trailer | Netflix
+     </p>
+     <p class="video-author">
+       Netflix
+     </p>
+     <p class="video-stats">
+         12M views &#183; 8 years ago
+     </p>
+    </div>
+</div>
+</div> 
+</div>
+
+
+<div class="video-preview"> 
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=e9-hykkzP8Q&t=1909s" target="_blank">
+  <img class="thumbnail" src="thumbnails/thumbnail-12.webp">
+    </a>
+   <div class="video-time">37:35</div> 
+  </div>
+<div> 
+  <div class="video-info-grid">
+    <div class="channel-picture"> 
+      <a href="https://www.youtube.com/@HJEvelynha" target="_blank">
+     <img class="profile-picture" src="channel-picture/channel-12.jpeg">
+      </a>
+    </div>
+    <div class="video-info"> <p class="video-title"> 
+    WE DRESSED UP AS GRANDMAS IN PUBLIC (I got hit on by an old man)
+     </p>
+     <p class="video-author">
+         HJ Evelyn
+     </p>
+     <p class="video-stats">
+         1.5M views &#183; 2 weeks ago
+     </p>
+    </div>
+</div>
+</div> 
+</div>
+
+<div class="video-preview"> 
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=DLgcCTnMheg&t=56s" target="_blank">
+  <img class="thumbnail" src="thumbnails/thumbnail-13.webp">
+    </a>
+   <div class="video-time">1:06:09</div> 
+  </div>
+<div> 
+  <div class="video-info-grid">
+    <div class="channel-picture"> 
+      <a href="https://www.youtube.com/@SamayRainaOfficial" target="_blank">
+     <img class="profile-picture" src="channel-picture/channel-13.jpeg">
+      </a>
+    </div>
+    <div class="video-info"> <p class="video-title"> 
+      INDIA'S GOT LATENT | EP 02 ft. ‪@GamerFleet‬ ‪@JokeSingh‬ ‪@KaranSinghMagic‬
+     </p>
+     <p class="video-author">
+        Samay Raina
+     </p>
+     <p class="video-stats">
+         2.6M views &#183; 3 days ago
+     </p>
+    </div>
+</div>
+</div> 
+</div>
+   </section>  
+  </main>  
+ </body>
+</html>
